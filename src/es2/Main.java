@@ -30,6 +30,18 @@ for (int i=lista.size()-1; i>=0; i--) {
 
     return oppositeList;
 }
+
+
+public static  ArrayList halfList (ArrayList lista, boolean pari){
+    if (pari){
+
+    }
+    else {
+
+    }
+
+    return ;
+}
     public static void main(String[] args) {
 
         ArrayList <Integer> numberList = new ArrayList<>();

@@ -18,12 +18,12 @@ public class Main {
         for (int i = 0; i <numero; i++){
             System.out.println("Inserisci la parola numero "+ (i+1)+ "/" +numero);
             String parola = scanner.nextLine();
-            wordSet.add(parola);
-            if (wordList.contains(parola)) {
+
+            if (!wordSet.add(parola)) {
                 duplicateList.add(parola);
                 }
 
-            wordList.add(parola);
+//            wordList.add(parola);
 
         }
         System.out.println( "Le parole univoche che hai inserito sono: " + wordSet.size() + " ovvero:");
